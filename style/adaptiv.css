@@ -1,0 +1,169 @@
+
+
+@media only screen and (min-width: 1281px)
+{
+	.menu_site{
+		width:80vw;
+		padding: 0 10% 0 10%;
+	}
+	.top_deviz{
+		width: 40%;
+		left: 50%;
+	}
+	.about_us p{
+		font-size: 2em;
+	}
+	.media_rez_2{
+		top: -20px;
+	}
+}
+@media only screen and (min-width: 901px) and (max-width: 1280px )
+{
+	.menu_site{
+		width:90vw;
+		padding: 0 5% 0 5%;
+	}
+	.top_deviz{
+		top: 65%;
+		left: 50%;
+		width: 50%;
+	}
+	.bokal{
+		right: 12%;
+		width: 25%;
+	}
+	.cool_1, .cool_1_1{
+		min-width: 70%;
+	}
+	.about_us,.shadow,.cool_ficha::before, .blur{
+		width: 40vw;
+	}
+	.about_us p{
+		padding: 5px 5px 15px 25px;
+		font-size: 1.1em;
+	}
+	.third_block{
+		top: -3.5vh;
+	}
+	.muha_info,.muha_info::before{
+		right: 10%;
+		width: 35%;
+	}
+	.compani_text{
+		left: 10%;
+		height: 60%;
+		width: 30%;
+	}
+	.compani_text p{
+		top: 10%;
+	}
+	.wine_photo{
+		margin-top: 0px; 
+	}
+	.media_rez{
+		top: 40px;
+	}
+	.media_rez_2{
+		top: -20px;
+	}
+	.teg_img{
+		padding: 0 5%; 
+		max-height: 50px;
+	}
+	.teg_img img{
+		margin: 10px 50px; 
+		height: 30px;
+	}
+
+}
+
+@media only screen and  (min-width: 601px ) and (max-width: 900px )
+{
+	.menu_site{
+		width:100vw;
+		padding: 0;
+	}
+	.top_deviz{
+		
+		left: 40%;
+	}
+	.cool_1{
+		width: 100%;
+	}
+	.cool_2,.cool_3{
+		display: none;
+	}
+	.item_top_1 p {
+		font-size: 2vw;
+		letter-spacing: 1.2px;
+	}
+	.about_us{
+		width: 40vw;
+	}
+	.about_us p{
+		
+		padding: 15px 5px 5px 5px;
+		font-size: 2vw;
+	}
+	.second_block img{
+		width: 60vw;
+	}
+	.third_block{
+		min-width: 100vw;
+		padding:10px 5%;
+	}
+	.box_wine{
+		margin: auto;
+	}
+	.box_wine p{
+		font-size: 2vw;
+	}
+	.box_wine h5{
+		font-size: 2.8vw;
+	}
+	.container{
+		display: none;
+	}
+}
+
+@media only screen and (max-width: 600px) 
+{
+	.top_deviz{
+		
+		left: 20%;
+		
+	}
+	.cool_1{
+		width: 100%;
+	}
+	.cool_2,.cool_3{
+		display: none;
+	}
+	.item_top_1 p {
+		font-size: 3vw;
+		letter-spacing: 1px;
+	}
+	.item_top_2 img{
+		display: none;
+	}
+	.about_us{
+		width: 70vw;
+	}
+	.about_us p{
+		padding: 5px;
+		font-size: 3vw;
+	}
+	.second_block img{
+		width: 90vw;
+	}
+	.box_wine{
+		margin: auto;
+	}
+	.box_wine p{
+		font-size: 2.75vw;
+	}
+	.box_wine h5{
+		font-size: 3.5vw;
+	}
+
+}

@@ -1,0 +1,46 @@
+.preloader{
+	position: fixed;
+	left: 0;
+	top:0;
+	height: 100%;
+	width: 100%;
+	background-color: white;
+	z-index: 100;
+	transition: 1s all;
+	opacity: 1;
+	visibility: visible;
+}
+.done{
+		opacity: 0;
+		visibility: hidden;
+
+	}
+.block{
+		position: absolute;
+        top: 40%;
+        top:calc(50% - 60%;);
+        left: 40%;
+        left: calc(50% - 80px);
+        margin: auto;
+        width: 25%;
+		overflow:visible;
+		white-space: nowrap; 
+	}
+	.car{
+		height: 120px;
+		width: 160px;
+		position: relative;
+		display:  inline;
+	}
+
+    .load{
+    	position: absolute;
+    	left: 48%;
+    	top: 5%;
+    }
+   .load p{
+    	color: black;
+    	font-family: 'Montserrat', sans-serif;
+		font-size:18px;
+    }
+	
