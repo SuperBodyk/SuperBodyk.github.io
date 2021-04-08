@@ -3,14 +3,17 @@
 <head>
 	<title>Mi_Wine</title>
 	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="chortcut icon" href="image/favicon/wine.png">
 	<link rel="stylesheet" type="text/css" href="style/head_style.css">
 	<link rel="stylesheet" type="text/css" href="style/stylePreolod.css">
 	<link rel="stylesheet" type="text/css" href="style/menu.css">
 	<link rel="stylesheet" type="text/css" href="style/adaptiv.css">
+	<link rel="stylesheet" type="text/css" href="style/swiper-bundle.min.css">
 	<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@500&display=swap" rel="stylesheet">
 	<link rel="preconnect" href="https://fonts.gstatic.com">
 	<link href="https://fonts.googleapis.com/css2?family=Bad+Script&family=Cormorant+Infant:ital,wght@1,500&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 	<script type="text/javascript" src="JS/jquery.js"></script>
 	<script type="text/javascript" src="JS/preloader.js"></script>
 	<script type="text/javascript" src="JS/menu.js"></script>
@@ -27,26 +30,57 @@
 			<p>Завантаження. . .</p>
 		</div>
 	</div>
-	
-	<div class="menu_site">
-			<div class="text_menu">
-				<a href="#produkt"><p>наші вина</p></a>
+	<div class="TOP">
+		<div class="container" id='menu_top' onclick="FunctionMenu(this)">
+	      <div class="bar1"></div>
+	      <div class="bar2"></div>
+	      <div class="bar3"></div>
+	    </div>
+	</div>
+	<div class="divice_menu done">
+			<div class="logo">
+				<a href="#top" onclick="FunctionDone()"><img src="image/LOGO/logo.png"></a>
 			</div>
 			<div class="dottet"></div>
 			<div class="text_menu">
-				<a href="#foto_muha"><p>засновник</p></a>
+				<a  href="#produkt" onclick="FunctionDone()"><p>наші вина</p></a>
+			</div>
+			<div class="dottet"></div>
+			<div class="dottet"></div>
+			<div class="text_menu">
+				<a href="#foto_muha" onclick="FunctionDone()"><p>засновник</p></a>
+			</div>
+			<div class="dottet"></div>
+			<div class="dottet"></div>
+			<div class="text_menu">
+				<a href="#contact" onclick="FunctionDone()"><p>контакти</p></a>
+			</div>
+			<div class="dottet"></div>
+			<div class="dottet"></div>
+			<div class="text_menu">
+				<a href="#histori" onclick="FunctionDone()"><p>про нас</p></a>
+			</div>
+			<div class="dottet"></div>	
+	</div>
+	<div class="menu_site">
+			<div class="text_menu">
+				<a  data-top="-100" href="#produkt"><p>наші вина</p></a>
+			</div>
+			<div class="dottet"></div>
+			<div class="text_menu">
+				<a data-top="-200" href="#foto_muha"><p>засновник</p></a>
 			</div>
 			<div class="dottet"></div>
 			<div class="logo">
-				<a href="#top"><img src="image/LOGO/logo.png"></a>
+				<a data-top="0"  href="#top"><img src="image/LOGO/logo.png"></a>
 			</div>
 			<div class="dottet"></div>
 			<div class="text_menu">
-				<a href="#contact"><p>контакти</p></a>
+				<a data-top="-100" href="#contact"><p>контакти</p></a>
 			</div>
 			<div class="dottet"></div>
 			<div class="text_menu">
-				<a href="#histori"><p>про нас</p></a>
+				<a data-top="-100" href="#histori"><p>про нас</p></a>
 			</div>
 	</div>
 	<div class="item_top_3" >
@@ -594,11 +628,10 @@
 					<div class="circle"></div>
 					<div class="product_info">
 						<h5>Кагор</h5>
-						<p>Червоне, десертне
-							Класичне, червоне, солодке вино, яке готується методом упарювання винградного соку в чанах на вогні. Єдине вино, яке допомагає печінці відновлювати клітини
+						<p>Класичне, червоне десертне солодке вино, яке готується методом упарювання винградного соку в чанах на вогні. Єдине вино, яке допомагає печінці відновлювати клітини
 						</p>
 					</div>
-					<img src="image/product/2.png">				
+					<img src="image/product/New.png">				
 				</div>
 				<div class="box_wine_card">
 					<div class="circle"></div>
@@ -681,5 +714,7 @@
 			</div>
 		</div>
 	</div>
+	
+
 </body>
 </html>

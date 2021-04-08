@@ -1,3 +1,14 @@
+.TOP{
+	position: fixed;
+	display: block;
+	max-height: 50px;
+	min-width: 100vw;
+	top: 0;
+	background-color: black;
+	font-size: 20px;
+	font-family: 'Inter', sans-serif;
+	z-index: 98;
+}
 .container {
 	position: absolute;
 	left: 0px;
@@ -12,6 +23,7 @@
 	padding:  0 ;
  	display: inline-block;
   	cursor: pointer;
+  	border-bottom-right-radius: 6px;
 }
 .bar1, .bar2, .bar3 {
   width: 30px;
@@ -32,18 +44,51 @@
   -webkit-transform: rotate(45deg) translate(-9px, -7px);
   transform: rotate(45deg) translate(-9px, -7px);
 }
-/*.menu_site{
-	position: fixed;
-	display: block;
-	top: 10%;
-	left: -450%;
-	height: 500px;
-	width: 400px;
+.divice_menu{
+	width: 100vw;
+	height: 100vh;
 	background-color: black;
-	transition: opacity 0.5s, top 1s;
-}*/
+	z-index: 97;
+	display: block;
+	left: 0;
+	position: fixed;
+}
+.divice_menu .logo {
+	top: 50px;
+	width: 100%;
+	height: 50px;
+	margin-bottom: 100px;
+}
+.divice_menu .logo img{
+	height:85px;
+	width: 85px;
+	position: relative;
+	left: calc(50% - 20px);
+	top: 0;
+	transform: translate(-50%, -50%);
+}
+.divice_menu .text_menu{
+	display: inline-block;
+	position: relative;
+	vertical-align: middle;
+	margin-top: 0px;
+	height: 50px;
+	min-width: calc(100% - 120px);
+}
+.divice_menu .dottet{
+	display:inline-block;
+	position: relative;
+	top: 20px;
+	margin: 20px;
+	height: 10px;
+	width:10px;
+	border-radius: 50%;
+	background-color: #AA021C;
+	z-index: 4;
+}
 .done{
-	left: -450%;
+	left: -667px;
+	display: none;
 	opacity: 0;
 	visibility: hidden;
 

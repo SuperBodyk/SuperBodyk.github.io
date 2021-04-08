@@ -2,13 +2,23 @@
 
 @media only screen and (min-width: 1281px)
 {
+	.TOP{
+		display: none;
+	}
+	.divice_menu{
+		display: none;
+	}
 	.menu_site{
-		width:80vw;
+		width:100vw;
 		padding: 0 10% 0 10%;
 	}
 	.top_deviz{
-		width: 40%;
+		width: 700px;
 		left: 50%;
+	}
+	.bokal{
+		height: 700px;
+		width:325px;
 	}
 	.about_us p{
 		font-size: 2em;
@@ -19,8 +29,14 @@
 }
 @media only screen and (min-width: 901px) and (max-width: 1280px )
 {
+	.TOP{
+		display: none;
+	}
+	.divice_menu{
+		display: none;
+	}
 	.menu_site{
-		width:90vw;
+		width:100vw;
 		padding: 0 5% 0 5%;
 	}
 	.top_deviz{
@@ -77,8 +93,14 @@
 
 }
 
-@media only screen and  (min-width: 601px ) and (max-width: 900px )
+@media only screen and  (min-width: 668px ) and (max-width: 900px )
 {
+	.TOP{
+		display: none;
+	}
+	.divice_menu{
+		display: none;
+	}
 	.menu_site{
 		width:100vw;
 		padding: 0;
@@ -120,18 +142,35 @@
 	}
 	.box_wine h5{
 		font-size: 2.8vw;
+
 	}
 	.container{
 		display: none;
 	}
 }
 
-@media only screen and (max-width: 600px) 
-{
+@media only screen and (max-width: 667px) 
+
+ { 
+	.TOP{
+		display: block;
+
+	}
+	.menu_site {
+		display: none;
+	}
 	.top_deviz{
-		
-		left: 20%;
-		
+		height: 20%;
+		max-height: 400px;
+		right: -25%;
+		bottom: 5%;
+		width: 75%;
+	}
+	.bokal{
+		min-width: 50%;
+		height: 70%;
+		max-height: 550px;
+		right: -23%;
 	}
 	.cool_1{
 		width: 100%;
@@ -146,15 +185,23 @@
 	.item_top_2 img{
 		display: none;
 	}
-	.about_us{
-		width: 70vw;
+	.about_us, .blur{
+		left: 5%;
+		width:90vw;
+		overflow: hidden;
 	}
 	.about_us p{
-		padding: 5px;
-		font-size: 3vw;
+		padding: 5px 10px ;
+		font-size: 0.85em;
+		line-height:2.1em;
+
+	}
+	.about_us h4{
+	font-size: 2em;
+	line-height:10px;
 	}
 	.second_block img{
-		width: 90vw;
+		width:100vw;
 	}
 	.box_wine{
 		margin: auto;
@@ -165,5 +212,82 @@
 	.box_wine h5{
 		font-size: 3.5vw;
 	}
+	.third_block h1{
+		font-size: 2em;
+		line-height:10px;
+	}
+	.box_wine_card{
+		width: 100vw;
+	}
+	.product_info h5
+	{	margin-top: 35px;
+		margin-bottom: 35px;
+		font-size: 1.8em;
+		line-height:30px;
+		padding-left: 35px;
+	}
+	.product_info p
+	{
+		font-size: 1.2em;
+		line-height:2.1em;
+		padding-left: 35px;
+	}
+	.foto_muha{
+		height: 225px;
+		width: 225px;
+		top: 10%;
+		left: 20%; 
+	}
+	.muha_info{
+		top: 330px;
+		right: 0;
+		height: 50%;
+		width: 90%;
+	}
+	.muha_info h4, .compani_text h4,.contact_us h3{
+		font-size: 1.5em;
+		line-height:30px;
+	}
+	.muha_info p, {
+		font-size: 0.9em;
+		line-height:30px;
+	}
+	.compani_text{
+		width: 80%;
+		height: 80%;
+	}
+	.compani_text p, .aver_contact p{
+		font-size: 1.2em;
+		line-height:30px;
 
+	}
+	.aver_contact h4{
+		font-size: 1.5em;
+		line-height:30px;
+	}
+	.contact_us input{
+		left: 0px;
+		max-width: 70%;
+		margin: 5px 5px 5px -80px;
+		padding: 0 0 0 10px;
+
+	}
+	.contact_us button{
+		font-size: 1.2em;
+		line-height:30px;
+		display: block;
+
+	}
+	.teg_img{
+		height: 400px;
+	}
+	
+}
+@media only screen and (max-width: 320px) {
+	.muha_info p{
+		display: none;
+	}
+	.muha_info{
+		height: 40%;
+	}
 }
