@@ -28,3 +28,5 @@ $('.menu_site a').on('click', function(e){
     });
 
 $('.preloader').click(false);
+    
+$( ".preloader" ).off( "click", "**" );

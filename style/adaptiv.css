@@ -26,6 +26,10 @@
 	.media_rez_2{
 		top: -20px;
 	}
+	.product_info h5
+	{	
+		margin-bottom: 35px;
+	}
 }
 @media only screen and (min-width: 901px) and (max-width: 1280px )
 {
@@ -90,6 +94,10 @@
 		margin: 10px 50px; 
 		height: 30px;
 	}
+	.product_info h5
+	{	
+		margin-bottom: 35px;
+	}
 
 }
 
@@ -124,7 +132,7 @@
 	}
 	.about_us p{
 		
-		padding: 15px 5px 5px 5px;
+		padding: 15px 5px 5px 10px;
 		font-size: 2vw;
 	}
 	.second_block img{
@@ -192,7 +200,7 @@
 	}
 	.about_us p{
 		padding: 5px 10px ;
-		font-size: 0.85em;
+		font-size: 1.1em;
 		line-height:2.1em;
 
 	}
@@ -248,8 +256,8 @@
 		font-size: 1.5em;
 		line-height:30px;
 	}
-	.muha_info p, {
-		font-size: 0.9em;
+	.muha_info p {
+		font-size: 1em;
 		line-height:30px;
 	}
 	.compani_text{
