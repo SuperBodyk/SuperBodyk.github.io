@@ -39,6 +39,10 @@
 	.divice_menu{
 		display: none;
 	}
+	.top_deviz{
+		width: 35%;
+		min-height: 30%;
+	}
 	.menu_site{
 		width:100vw;
 		padding: 0 5% 0 5%;
@@ -50,7 +54,7 @@
 	}
 	.bokal{
 		right: 12%;
-		width: 25%;
+		width: 20%;
 	}
 	.cool_1, .cool_1_1{
 		min-width: 70%;
@@ -60,8 +64,8 @@
 	}
 	.about_us p{
 		padding: 5px 5px 15px 25px;
-		font-size: 1.5em;
-		letter-spacing: 1.2px;
+		font-size: 1.3em;
+		letter-spacing: 1.1px;
 		line-height:2em;
 	}
 	.third_block{
@@ -126,6 +130,10 @@
 		
 		left: 40%;
 	}
+	.bokal{
+		right: -20%;
+		width: 40%;
+	}
 	.cool_1{
 		width: 100%;
 	}
@@ -147,6 +155,60 @@
 	.second_block img{
 		width: 60vw;
 	}
+	.product_info h5
+	{	margin-top: 35px;
+		margin-bottom: 35px;
+		font-size: 1.8em;
+		line-height:30px;
+		padding-left: 35px;
+	}
+	.product_info p
+	{
+		font-size: 1.2em;
+		line-height:1.6em;
+		padding-left: 35px;
+		padding-top: 15px;
+		padding-right: -5px;
+	}
+	.foto_muha{
+		height: 225px;
+		width: 225px;
+		top: 10%;
+		left: 38%; 
+	}
+	.muha_info{
+		top: 330px;
+		right: 0;
+		height: 50%;
+		width: 90%;
+	}
+	.muha_info h4, .contact_us h3{
+		font-size: 1.5em;
+		line-height:30px;
+	}
+	.muha_info p {
+		font-size: 1.3em;
+		line-height:30px;
+	}
+	.compani_text h4{
+		margin-top: -20px;
+		font-size: 1.5em;
+		line-height:30px;
+	}
+	.compani_text p{
+		margin-top: -20px;
+		font-size: 1.2em;
+		line-height:30px;
+
+	}
+	.aver_contact p{
+		font-size: 1.2em;
+		line-height:30px;
+	}
+	.aver_contact h4{
+		font-size: 1.7em;
+		line-height:30px;
+	}
 	.third_block{
 		min-width: 100vw;
 		padding:10px 5%;
@@ -163,6 +225,9 @@
 	}
 	.container{
 		display: none;
+	}
+	.teg_img{
+		height: 400px;
 	}
 }
 
