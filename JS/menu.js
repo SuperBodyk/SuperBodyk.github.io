@@ -1,3 +1,4 @@
+
 var timesClicked=1;
 function FunctionMenu(x) {
 		 x.classList.toggle("change");
@@ -18,34 +19,7 @@ function FunctionDone() {
         elem.classList.toggle("change");
        
      }
-$('#lets_go').click(function(){
-    var Name_people =$('#Name').val();
-    var Phone_people=$('#Phone').val();
-    var Email_people=$('#email').val();
-    var Qwest_people=$('#qwest').val();
-    if(Name_people=='')
-    {
-        $('#Name').css('background','#ff8080');
-         window.alert("Заповніть поле: ім'я ");
-        return false;
-    }
-     if((Phone_people=='')&&(Email_people==''))
-    {
-        $('#Phone').css('background','#ff8080');
-         window.alert("Заповніть поле: номер телефону ");
-        return false;
-    }
-    if(((Phone_people!='')||(Email_people!=''))&&(Name_people==''))
-    {
-        document.cookie='Phone_people='+Phone_people+';';
-        document.cookie='Email_people='+Email_people+';';
-        document.cookie='Name_people='+Name_people+';';
-        document.cookie='Qwest_people='+Qwest_people+';';
-        var url='../PHP/telegram.php';
-        location.href=url;
-        return false;
-    }
-});
+
 $('.menu_site a').on('click', function(e){
 
         let id = $(this).attr('href');

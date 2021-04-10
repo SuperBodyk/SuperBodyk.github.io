@@ -700,9 +700,9 @@
 					<h3>Контактна Форма</h3>
 					<input  id="Name" class="Name" type="text" placeholder="Як до вас звертатися?" title="Як до Вас Звертатись?">
 					<input id="Phone" placeholder="Номер телефону" class="phone_number" type="" name="">
-					<input id="email" placeholder="Емейл адрес"class="email_adress" type="" name="">
+					<input id="email" placeholder="Емейл адрес" class="email_adress" type="" name="">
 					<input id="qwest" placeholder="Коротко опишіть, що Вас цікавить" class="massege" type="text" name="">
-					<button id='lets_go' >відправити</button>
+					<button id="lets_go" >відправити</button>
 				</div>
 			</div>		
 			<div class="teg_img">
@@ -717,3 +717,33 @@
 
 </body>
 </html>
+<script type="text/javascript">
+	$('#lets_go').click(function(){
+    var Name_people =$('#Name').val();
+    var Phone_people=$('#Phone').val();
+    var Email_people=$('#email').val();
+    var Qwest_people=$('#qwest').val();
+    if(Name_people=='')
+    {
+        $('#Name').css('background','#ff8080');
+         window.alert("Заповніть поле: ім'я ");
+        return false;
+    }
+     if(Phone_people=='')
+    {
+        $('#Phone').css('background','#ff8080');
+         window.alert("Заповніть поле: номер телефону ");
+        return false;
+    }
+    if((Phone_people!='')&&(Name_people!=''))
+    {
+        document.cookie='Phone_people='+Phone_people+';';
+        document.cookie='Email_people='+Email_people+';';
+        document.cookie='Name_people='+Name_people+';';
+        document.cookie='Qwest_people='+Qwest_people+';';
+        var url='PHP/telegram.php';
+        location.href=url;
+        return false;
+    }
+});
+</script>

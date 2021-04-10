@@ -12,10 +12,10 @@ $chat_id = "-371289017";
    $Cookie_Qwest=$_COOKIE['Qwest_people'];
    $date_for_server=date('d/m/Y');
    $time_for_server=date('H:i');
-   $txt = "Повідомлення від:".$Cookie_Name." <br>
-   Звернувся на сайті в ".$time_for_server." годині ".$date_for_server." <br>
-   Номер телефону:".$Cookie_Phone." <br> 
-   Емейл адрес:".$Cookie_Email." <br>
+   $txt = "Повідомлення від:".$Cookie_Name." /
+   Звернувся на сайті в ".$time_for_server." годині ".$date_for_server." числа /
+   Номер телефону:".$Cookie_Phone." / 
+   Емейл адрес:".$Cookie_Email." /
    Запитання від користувача: ".$Cookie_Qwest." .";
 
 
