@@ -60,7 +60,9 @@
 	}
 	.about_us p{
 		padding: 5px 5px 15px 25px;
-		font-size: 1.1em;
+		font-size: 1.5em;
+		letter-spacing: 1.2px;
+		line-height:2em;
 	}
 	.third_block{
 		top: -3.5vh;
@@ -79,6 +81,13 @@
 	}
 	.wine_photo{
 		margin-top: 0px; 
+	}
+	.box_wine p{
+		margin-top: 20px;
+		padding-left: 10px;
+	}
+	.box_wine h5{
+		font-size: 3.5vw;
 	}
 	.media_rez{
 		top: 40px;
@@ -199,8 +208,8 @@
 		overflow: hidden;
 	}
 	.about_us p{
-		padding: 5px 10px ;
-		font-size: 1.1em;
+		padding: 5px 5px 5px 15px;
+		font-size: 1em;
 		line-height:2.1em;
 
 	}
@@ -237,8 +246,10 @@
 	.product_info p
 	{
 		font-size: 1.2em;
-		line-height:2.1em;
+		line-height:1.6em;
 		padding-left: 35px;
+		padding-top: 15px;
+		padding-right: -5px;
 	}
 	.foto_muha{
 		height: 225px;
@@ -268,6 +279,9 @@
 		font-size: 1.2em;
 		line-height:30px;
 
+	}
+	.aress{
+		top: -50px;
 	}
 	.aver_contact h4{
 		font-size: 1.5em;
