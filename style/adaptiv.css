@@ -371,10 +371,31 @@
 	
 }
 @media only screen and (max-width: 320px) {
-	.muha_info p{
-		display: none;
+	.about_wine_head{
+		min-height: 200vh;
+	}
+	.about_wine_head img{
+		height: 220vh;
+	}
+	.foto_muha img {
+	height: 100%;
+	width: 100%;
+	top: 0px;
+	object-fit: cover;
+	object-position: 40% 50%;
 	}
 	.muha_info{
-		height: 40%;
+		height: 60%;
+	}
+	.compani_text h4{
+		margin-top: -35px;
+		font-size: 1.1em;
+		line-height:30px;
+	}
+	.compani_text p{
+		margin-top: -35px;
+		font-size: 1em;
+		line-height:30px;
+
 	}
 }
