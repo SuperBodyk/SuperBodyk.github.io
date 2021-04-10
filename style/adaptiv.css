@@ -8,10 +8,20 @@
 	.divice_menu{
 		display: none;
 	}
+	.top_deviz{
+		width: 15%;
+		min-height: 35%;
+	}
+	.bokal{
+		right: 12%;
+		max-width:20%;
+		max-height: 80%;
+	}
 	.menu_site{
 		width:100vw;
 		padding: 0 10% 0 10%;
 	}
+
 	.top_deviz{
 		width: 700px;
 		left: 50%;
@@ -21,7 +31,8 @@
 		width:325px;
 	}
 	.about_us p{
-		font-size: 2em;
+		font-size: 1.5em;
+		line-height:25px;
 	}
 	.media_rez_2{
 		top: -20px;
@@ -29,6 +40,19 @@
 	.product_info h5
 	{	
 		margin-bottom: 35px;
+	}
+	.muha_info h4, .compani_text h4,.contact_us h3{
+		font-size: 1.5em;
+		line-height:30px;
+	}
+	.muha_info p {
+		font-size: 1em;
+		line-height:30px;
+	}
+	.compani_text p, .aver_contact p{
+		font-size: 1.2em;
+		line-height:30px;
+
 	}
 }
 @media only screen and (min-width: 901px) and (max-width: 1280px )
@@ -111,6 +135,7 @@
 	{	
 		margin-bottom: 35px;
 	}
+
 
 }
 
