@@ -440,7 +440,8 @@
 			<img class="bokal" src="image/bokal.png">
 			<div class="oper_info">
 				<a href="#foto_muha"><H3>Винороб Муха Юрій Іванови</H3></a>
-				<p>тел. 066-685-89-82</p>
+				<a title="Подзвонити?" href="tel:+380666858982"><p>тел. 066-685-89-82</p></a>
+				<a title="Подзвонити?" href="tel:+380509618692"><p>тел. 050-961-86-92</p></a>
 			</div>
 
 	</div>
@@ -693,8 +694,8 @@
 				<h4>Зв'язок з нами</h4>
 				<div class="left_info">
 						<button onclick="copyNumber()" title="Натисніть, щоб скопіювати"><img src="image/icon/phone.png"></button>
-						<p class="Phone_number">+38066685898</p>
-						<p class="Phone_number">+38098958559</p>
+						<p class="Phone_number">+38(066)-685-89-82</p>
+						<p class="Phone_number">+38(050)-961-86-92</p>
 						<input type="text" id="phone_number_input" value=" 38066685898">
 						<button onclick="copyEmail()" title="Натисніть, щоб скопіювати"><img src="image/icon/email.png"></button>
 						<p class="amail_adress"  >drogobetska556@gmail.com</p>
@@ -713,7 +714,8 @@
 					<a href="https://fb.com" target="_blank"><img src="image/icon/facebook.png"></a>
 					<a href="https://instagram.com" target="_blank"><img src="image/icon/instagram.png"></a>
 					<a href="https://web.telegram.org" target="_blank"><img src="image/icon/telegram.png"></a>
-					<a href="https://viber.com" target="_blank"><img src="image/icon/viber.png"></a>
+					<a href="viber://chat?number=+380507210167" target="_blank" id="Mb_viber"><img src="image/icon/viber.png"></a>
+					<a href="viber://chat?number=+380507210167" target="_blank" id="PC_viber"><img src="image/icon/viber.png"></a>
 			</div>
 		</div>
 	</div>
@@ -750,4 +752,14 @@
         return false;
     }
 });
+	if (screen && screen.width > 900) 
+	{
+		 $('#Mb_viber').css('display','none');
+	}
+
+	if (screen && screen.width < 900) 
+	{
+		$('#PC_viber').css('display','none');
+	}
+
 </script>
