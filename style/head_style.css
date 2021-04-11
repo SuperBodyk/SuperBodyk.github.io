@@ -891,4 +891,23 @@ footer{
 	border-radius: 50%;
 	box-shadow: 0 0 25px rgba(247,19,37,0.9);	
 }
+.oper_info{
+	position: absolute;
+	top: 90px;
+	left: 40px;
+	width: 100%;
+	display: inline-block;
 
+}
+.oper_info h3{
+	font-size: 1.7em;
+	cursor: pointer;
+	font-family: 'Bad Script', cursive;
+	
+}
+.oper_info a{
+	text-decoration: none;
+}
+.oper_info p{
+	font-size: 1.2em;
+}
