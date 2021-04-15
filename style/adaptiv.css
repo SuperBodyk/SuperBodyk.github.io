@@ -319,6 +319,11 @@
 	.left_info p{
 		padding-top: 30px;
 	}
+	.contact_us{
+		height: 500px;
+		left: 5%;
+		width: 90%;
+	}
 }
 
 @media only screen and (max-width: 667px) 
@@ -475,6 +480,11 @@
 		margin-left:30px;
 		width: 70%;;
 	}
+	.contact_us{
+		height: 500px;
+		left: 5%;
+		width: 90%;
+	}
 
 	
 }
@@ -521,6 +531,11 @@
 	}
 	#lets_go{
 		margin-left: 32px;
+	}
+	.contact_us{
+		height: 500px;
+		left: 5%;
+		width: 90%;
 	}
 
 }
