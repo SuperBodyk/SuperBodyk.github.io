@@ -345,6 +345,10 @@
 	.img-slider .slider-container {
     animation: slider 80s infinite;
 	}
+	.cool_ficha_2 h1{
+		font-size: 3vw;
+	}
+
 }
 
 @media only screen and (max-width: 667px) 
@@ -505,8 +509,15 @@
 	.img-slider .slider-container {
     animation: slider 50s infinite;
 	}
-
-
+	.cool_ficha_2 h1{
+		font-size: 4vw;
+	}
+	.photo_muha img{
+	height: 300px;
+	}
+	.photo_muha{
+		height: 200px;
+	}
 	
 }
 @media only screen and (max-width: 320px) {
@@ -570,6 +581,13 @@
 	.img-slider .slider-container {
     animation: slider 50s infinite;
 	}
-	
-
+	.cool_ficha_2 h1{
+		font-size: 4vw;
+	}
+	.photo_muha img{
+	height: 300px;
+	}
+	.photo_muha{
+		height: 200px;
+	}
 }
